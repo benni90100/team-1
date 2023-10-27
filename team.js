@@ -11,3 +11,5 @@ function persona (name, surname, age, city, hobby, favFood, favVideogame, favFil
     this.petName=petName;
 }
 
+let alessandro = new persona ("Alessandro","Castelli",28,"Palermo","Motociclismo","Riso","Fallout 3","The Wolf Of Wall Street","L'Ombre del Sole","Briciola")
+
