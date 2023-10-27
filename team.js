@@ -1,4 +1,4 @@
-let persona (name, surname, age, city, hobby, favFood, favVideogame, favFilm, favBook, petName){
+function persona (name, surname, age, city, hobby, favFood, favVideogame, favFilm, favBook, petName){
     this.name=name,
     this.surname=surname,
     this.age=age,
@@ -10,3 +10,4 @@ let persona (name, surname, age, city, hobby, favFood, favVideogame, favFilm, fa
     this.favFood=favBook,
     this.petName=petName,
 }
+
