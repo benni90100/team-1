@@ -11,3 +11,4 @@ function persona (name, surname, age, city, hobby, favFood, favVideogame, favFil
     this.petName=petName;
 }
 
+let annagiusi = new persona("Annagiusi", "Volpe", 27,"Salerno","Gym","sushi","Skyrim","Shutter Island","Neuromarketing","Bug");
