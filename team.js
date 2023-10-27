@@ -11,3 +11,6 @@ function persona (name, surname, age, city, hobby, favFood, favVideogame, favFil
     this.petName=petName;
 }
 
+let Benny = new persona("benni", "Miceli", 33, "Palermo", "musica", "lasagne", "Rome of war", "Inception",
+ "Tropico del capricorno", "jump");
+ console.log(Benny);
