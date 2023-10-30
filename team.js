@@ -10,4 +10,5 @@ function persona (name, surname, age, city, hobby, favFood, favVideogame, favFil
     this.favFood=favBook;
     this.petName=petName;
 }
-
+let ChiaraRa = new persona ("Chiara", "Rapisardi", 27, "Palermo", "Natura", "Mandorle", "", "Interstate 60", "L'alchimista", "Ernestina");
+console.log(ChiaraRa);
