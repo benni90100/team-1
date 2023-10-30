@@ -1,0 +1,6 @@
+let car= {
+    'name': 'panda',
+    'color':'bianco',
+}
+console.log(car.name);
+console.log(car.color)
