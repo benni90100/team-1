@@ -52,3 +52,65 @@ ChiaRa = {
 
 
 ]
+
+function whoHasAPet() {
+    let whoHasAPet = [];
+
+    for (let i = 0; i < Persona.length; i++) {
+
+        if (Persona[i].petName !== "") {
+            whoHasAPet.push(Persona[i].name);
+        }
+    }
+    return whoHasAPet
+
+}
+let peapleWithPet = whoHasAPet();
+console.log(peapleWithPet);
+
+
+function nomiUguali() {
+    let nomi = {};
+    let doppi = [];
+    for (let i = 0; i < Persona.length; i++) {
+        let nome = Persona[i].name;
+        if (nomi[nome]) {
+            doppi.push(nome)
+
+        }
+
+    }
+    return doppi
+
+}
+
+
+let doppioni = nomiUguali();
+
+if (doppioni.length > 0) {
+    console.log(`ci sono membri con lo stesso nome = ${doppioni}`);
+
+} else {
+    console.log(`non ci sono membri con lo stesso nome`);
+}
+
+function favGame() {
+    let giocaALol = [];
+    for (let i = 0; i < Persona.length; i++) {
+        if (Persona[i].favoriteVideoGame == "LoL" || Persona[i].favoriteVideoGame == "League Of Leggend") {
+            giocaALol.push(Persona[i].name);
+
+        }
+
+
+    }
+    return giocaALol
+}
+let lolGamer = favGame()
+if (lolGamer.length > 0) {
+    console.log(`i giocatori di LoL sono: ${lolGamer}`);
+
+} else {
+    console.log(`non ci sono giocatori di LoL`);
+
+}
