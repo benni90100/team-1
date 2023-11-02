@@ -4,7 +4,7 @@ let Persona = [
     surname: "Miceli"
     age: 33
     city: "Palermo"
-    hobby: "muusica"
+    hobby: "musica"
     favoriteFood: "lasagne"
     favoriteVideoGame: "CoD"
     favoriteFilm: "inception"
