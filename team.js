@@ -1,4 +1,4 @@
-let persona = [ alessandro = {
+let Persona = [ alessandro = {
         name: "Alessandro",
         surname: "Castelli",
         age: 28,
