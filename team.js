@@ -1,4 +1,4 @@
-let Persona = 
+let Persona = [
     annagiusi = {
     name : "Annagiusi",
     surname: "Volpe",
@@ -11,4 +11,4 @@ let Persona =
     favBook: "Neuromarketing",
     petName: "Bug",
 }
-
+]
