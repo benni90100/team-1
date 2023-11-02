@@ -1,2 +1,13 @@
-let alessandro = ["Alessandro","Castelli", 28 ,"Palermo","Motociclismo","Riso","Fallout 3","The Wolf Of Wall Street","L'Ombra del Sole","Briciola"]
-
+let persona = [ alessandro = {
+        name: "Alessandro",
+        surname: "Castelli",
+        age: 28,
+        city: "Palermo",
+        hobby: "Motociclismo",
+        favFood: "Riso",
+        favVideogame: "Fallout 3",
+        favFilm: "The Wolf Of Wall Street",
+        favBook: "L'Ombra del Sole",
+        petName: "Briciola",
+    }
+]
