@@ -8,25 +8,25 @@ let Persona = [alessandro = {
     favVideogame: "Fallout 3",
     favFilm: "The Wolf Of Wall Street",
     favBook: "L'Ombra del Sole",
-    petName: "Briciola", 
-  } 
- ,
- Benny = {
-        name: "Benni",
-        surname: "Miceli",
-        age: 33,
-        city: "Palermo",
-        hobby: "musica",
-        favoriteFood: "lasagne",
-        favoriteVideoGame: "CoD",
-        favoriteFilm: "inception",
-        favoriteBook: "tropicoo del cancro",
-        petName: "Jump",
-    },
+    petName: "Briciola",
+}
+    ,
+Benny = {
+    name: "Benni",
+    surname: "Miceli",
+    age: 33,
+    city: "Palermo",
+    hobby: "musica",
+    favoriteFood: "lasagne",
+    favoriteVideoGame: "CoD",
+    favoriteFilm: "inception",
+    favoriteBook: "tropicoo del cancro",
+    petName: "Jump",
+},
 
 
 annagiusi = {
-    name : "Annagiusi",
+    name: "Annagiusi",
     surname: "Volpe",
     age: 27,
     city: "Salerno",
@@ -37,17 +37,18 @@ annagiusi = {
     favBook: "Neuromarketing",
     petName: "Bug",
 },
-    ChiaRa = {
-        name: "Chiara",
-        surname: "Rapisardi",
-        age: 27,
-        city: "Palermo",
-        hobby: "Natura",
-        favoriteFood: "Mandorle",
-        favoriteVideoGame: "Soulblade(ps1)",
-        favoriteFilm: "Interstate 60",
-        favoriteBook: "L'alchimista",
-        petName: "Ernestina",},
+ChiaRa = {
+    name: "Chiara",
+    surname: "Rapisardi",
+    age: 27,
+    city: "Palermo",
+    hobby: "Natura",
+    favoriteFood: "Mandorle",
+    favoriteVideoGame: "Soulblade(ps1)",
+    favoriteFilm: "Interstate 60",
+    favoriteBook: "L'alchimista",
+    petName: "Ernestina",
+},
 
 
 ]
