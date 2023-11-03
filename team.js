@@ -3,8 +3,8 @@
 let Persona = [
 
     Chiara = {
-        name: "paluzzi",
-        surname: "chiara",
+        name: "Chiara",
+        surname: "Paluzzi",
         age: 23,
         city: "civita castellana",
         hobby: "ballare",
